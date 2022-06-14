@@ -1,3 +1,5 @@
+# 🎲 🤑
+
 In one and only one class create a bingo card with some conditions to bear in mind :
 - Every row must have 5 figures and 4 gaps
 - Every column must have its figures ordered in ascendent order
@@ -10,11 +12,11 @@ In one and only one class create a bingo card with some conditions to bear in mi
 
 
 Todas las filas tienen que tener 5 valores y 4 casillas vacías
-Cada columna tiene valores de su decena de forma ordenada
-La primera : 1 a 9 (9 valores)
-la segunda : 10 a 19 (10 valores)
-La tercera : 20 a 29 ( 10 valores)
+- Cada columna tiene valores de su decena de forma ordenada
+- La primera : 1 a 9 (9 valores)
+- la segunda : 10 a 19 (10 valores)
+- La tercera : 20 a 29 ( 10 valores)
 ....
-la última  : 80 a 90 (11 valores)
-Existen tres columnas con 1 valor y resto solo tiene 2
-Dos columnas consecutivas no pueden tener los valores o huecos en las misma posiciones. Por ejemplo:  si la primera columna tiene valores en la fila 1 y 3 la siguiente columna no puede tener valores en la fila 1 y 3 .
+- la última  : 80 a 90 (11 valores)
+- Existen tres columnas con 1 valor y resto solo tiene 2
+- Dos columnas consecutivas no pueden tener los valores o huecos en las misma posiciones. Por ejemplo:  si la primera columna tiene valores en la fila 1 y 3 la siguiente columna no puede tener valores en la fila 1 y 3 .
