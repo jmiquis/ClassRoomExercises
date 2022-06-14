@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+</head>
+<body>
+
+
+  <script>
+    var  cuerpo  = document.body;
+
+    var selector = crearElemento("radio",1,cuerpo);
+
+    crearElemento ("option",4,selector,"opcion");
+
+
+    function crearElemento(etiqueta,veces,padre,textoAsociado=false) {
+        //crea el elemento
+      for(let i=0;i<veces;i++){
+        var elemento = document.createElement(`${etiqueta}`);
+        padre.appendChild(elemento);
+
+        //pinta el texto si existe
+        if(textoAsociado){
+          texto         = textoAsociado + ` ${i+1}`;
+          var nodoTexto = document.createTextNode(texto);
+          elemento.appendChild(nodoTexto);
+        }
+
+      }
+      return elemento;
+}
+
+  </script>
+</body>
+</html>
