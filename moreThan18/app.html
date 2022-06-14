@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <p><input type="date" name="fecha" id="fecha"></p>
+  <p><input type="button" onclick="calculaMayoria()" value="validar"></p>
+  <p><input type="text" id="salida"></p>
+  <script>
+    function calculaMayoria() {
+      var mensaje="";
+      var fecha=document.getElementById("fecha").value
+      let mayoriaDeEdad=Date.parse("1988-01-01");
+      fecha=Date.parse(fecha);
+      let fechaActual=Date.now();
+      mensaje=(fechaActual-fecha<mayoriaDeEdad)?"menor de edad":"mayor de edad";
+      document.getElementById("salida").value=mensaje;
+    }
+  </script>
+</body>
+</html>
