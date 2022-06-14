@@ -1,2 +1,2 @@
-# ClassRoomExercises
-Some of my web developer certificate exercises. 
+# 📚 Some random exercises from many different languages
+Some of them looked really tricky back in time... and I think they are still right now!! 🤯
